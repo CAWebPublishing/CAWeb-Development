@@ -1,0 +1,34 @@
+version: '3.7'
+
+services:
+   mariadb:
+    container_name: mariadb
+    image: mariadb:latest
+    restart: always
+    volumes:
+      - db_data:/var/lib/mysql
+    env_file:
+      - env/db.env
+   site:
+    image: guzmanjd/caweb:latest
+    container_name: site
+    depends_on:
+     - mariadb
+    ports:
+      - "7000:80"
+    restart: always
+    env_file:
+      - env/db.env
+      - env/wp/instance.env
+      - env/wp/site.env
+      - env/divi/options.env
+      - env/caweb/caweb.env
+      - env/caweb/nav.env
+      - env/caweb/options/general.env
+      - env/caweb/options/utility-header.env
+      - env/caweb/options/page-header.env
+      - env/caweb/options/google.env
+    volumes:
+      - ./wordpress:/home/wp
+volumes:
+  db_data:
