@@ -21,6 +21,7 @@ services:
       - env/db.env
       - env/wp/instance.env
       - env/wp/site.env
+      - env/divi/divi.env
       - env/divi/options.env
       - env/caweb/caweb.env
       - env/caweb/nav.env
