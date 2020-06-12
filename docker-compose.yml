@@ -10,7 +10,7 @@ services:
     env_file:
       - env/db.env
    site:
-    image: guzmanjd/caweb:latest
+    image: cawebpublishing/caweb:latest
     container_name: site
     depends_on:
      - mariadb
@@ -18,6 +18,7 @@ services:
       - "7000:80"
     restart: always
     env_file:
+      - env/php.env
       - env/db.env
       - env/wp/instance.env
       - env/wp/site.env
