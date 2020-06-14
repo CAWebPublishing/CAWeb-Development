@@ -32,5 +32,15 @@ services:
       - env/caweb/options/google.env
     volumes:
       - ./wordpress:/home/wp
+   phpMyAdmin:
+    image: cawebpublishing/caweb:phpMyAdmin
+    container_name: phpMyAdmin
+    depends_on:
+      - mariadb
+    ports:
+      - "8000:80"
+    restart: always
+    env_file:
+      - env/db.env
 volumes:
   db_data:
