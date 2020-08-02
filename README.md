@@ -4,11 +4,11 @@
 
 #### Requirements  
 - [Docker](https://www.docker.com/)  
-- ElegantThemes Account Information (required to install Divi)
+- [ElegantThemes](https://www.elegantthemes.com/) Account Information (required to install Divi)
 
 ## To Get Started  
 1. Clone this project.  
-2. Edit the env/divi/divi.env file and add your ElegantTheme values in the appropriate fields. For help visit our wiki section, [Divi Environment Variables](https://github.com/CAWebPublishing/CAWeb-Development/wiki/Divi).  
+2. Edit the env/divi/divi.env file and add your ElegantThemes values in the appropriate fields. For help visit our wiki section, [Divi Environment Variables](https://github.com/CAWebPublishing/CAWeb-Development/wiki/Divi).  
 2. Open a terminal in the root directory of this project.  
 3. If you have [Make](http://gnuwin32.sourceforge.net/packages/make.htm) installed, you can run `make wplaunch`. Alternatively, you can run `docker-compose up -d`.  
    _Site creation may take several minutes, containers can be viewed by running_ `docker container ls` _from a terminal._  
