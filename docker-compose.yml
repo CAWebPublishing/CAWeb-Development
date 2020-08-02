@@ -10,7 +10,7 @@ services:
     env_file:
       - env/db.env
    site:
-    image: cawebpublishing/caweb:latest
+    image: cawebpublishing/caweb:centos-apache
     container_name: site
     depends_on:
      - mariadb
@@ -33,7 +33,7 @@ services:
     volumes:
       - ./wordpress:/home/wp
    phpMyAdmin:
-    image: cawebpublishing/caweb:phpMyAdmin
+    image: cawebpublishing/phpmyadmin
     container_name: phpMyAdmin
     depends_on:
       - mariadb

@@ -1,9 +1,0 @@
-[et_pb_section bb_built="1" next_background_color="#000000" inner_width="auto" inner_max_width="none"][et_pb_row][/et_pb_row][/et_pb_section][et_pb_section bb_built="1" fullwidth="on" specialty="off" prev_background_color="#000000" next_background_color="#000000" inner_width="auto" inner_max_width="none"][et_pb_ca_fullwidth_section_primary _builder_version="3.22.6" section_heading="Primary Title" left_right_button="off" section_image="https://test5.test.sites.ca.gov/wp-content/uploads/sites/21/2019/04/icecreamcones.jpg" slide_image_button="off" heading_align="left" text_shadow_horizontal_length="text_shadow_style,%91object Object%93" text_shadow_vertical_length="text_shadow_style,%91object Object%93" text_shadow_blur_strength="text_shadow_style,%91object Object%93" z_index_tablet="500" show_more_button="on" section_link="https://test5.test.sites.ca.gov/fullwidth-section-primary/"]
-
-<p>Some interesting text</p>
-
-[/et_pb_ca_fullwidth_section_primary][/et_pb_section][et_pb_section bb_built="1" fullwidth="on" specialty="off" prev_background_color="#000000"][et_pb_ca_fullwidth_section_primary _builder_version="3.22.6" section_heading="Some Other Primary Title" left_right_button="on" section_image="https://test5.test.sites.ca.gov/wp-content/uploads/sites/21/2019/04/icecreamcones.jpg" slide_image_button="off" heading_align="left" text_shadow_horizontal_length="text_shadow_style,%91object Object%93" text_shadow_vertical_length="text_shadow_style,%91object Object%93" text_shadow_blur_strength="text_shadow_style,%91object Object%93" z_index_tablet="500" show_more_button="on" section_link="https://test5.test.sites.ca.gov/fullwidth-section-primary/"]
-
-<p>Another very interesting text</p>
-
-[/et_pb_ca_fullwidth_section_primary][/et_pb_section]
