@@ -4,7 +4,7 @@
 
 #### Requirements  
 - [Docker](https://www.docker.com/)  
-- ElegantThemes Account Information 
+- ElegantThemes Account Information (required to install Divi)
 
 ## To Get Started  
 1. Clone this project.  
