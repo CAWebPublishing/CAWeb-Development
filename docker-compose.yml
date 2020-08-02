@@ -33,7 +33,7 @@ services:
     volumes:
       - ./wordpress:/home/wp
    phpMyAdmin:
-    image: cawebpublishing/phpmyadmin
+    image: phpmyadmin/phpmyadmin
     container_name: phpMyAdmin
     depends_on:
       - mariadb
