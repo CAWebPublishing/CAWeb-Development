@@ -10,7 +10,7 @@ services:
     env_file:
       - env/db.env
    site:
-    image: cawebpublishing/caweb:centos-apache
+    image: cawebpublishing/caweb:centos-apache-test
     container_name: site
     depends_on:
      - mariadb
@@ -31,7 +31,9 @@ services:
       - env/caweb/options/page-header.env
       - env/caweb/options/google.env
     volumes:
-      - ./wordpress:/home/wp
+      - ./wordpress:/home/wp # Used if adding custom themes/plugins or if creating pages/posts
+      - ./wordpress/themes:/var/www/html/wp-content/themes # Used for development
+      - ./wordpress/plugins:/var/www/html/wp-content/plugins # Used for development
    phpMyAdmin:
     image: phpmyadmin/phpmyadmin
     container_name: phpMyAdmin
