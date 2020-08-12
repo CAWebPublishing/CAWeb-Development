@@ -10,7 +10,7 @@ services:
     env_file:
       - env/db.env
    site:
-    image: cawebpublishing/caweb:centos-apache-test
+    image: cawebpublishing/caweb:centos-apache
     container_name: site
     depends_on:
      - mariadb
